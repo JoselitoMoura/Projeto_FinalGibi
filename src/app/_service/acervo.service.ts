@@ -12,7 +12,7 @@ export class AcervoService {
       titulo: 'Specktro - Especial dos Vampiros',
       editora: 'Vecchi',
       numero: 5,
-      capa: 'assets/capas/specktro5.jpg'
+      capa: 'assets/capas/Specktro5.jpg'
     },
     {
       id: 2,
