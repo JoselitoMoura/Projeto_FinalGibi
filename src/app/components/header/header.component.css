@@ -1,0 +1,15 @@
+.header {
+  background: #222;
+  color: #fff;
+  padding: 16px;
+}
+
+nav a {
+  color: #fff;
+  margin-right: 12px;
+  text-decoration: none;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
