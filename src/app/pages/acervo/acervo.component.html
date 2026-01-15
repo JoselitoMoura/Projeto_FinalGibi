@@ -6,5 +6,14 @@
     <h3>{{ gibi.titulo }}</h3>
     <p>Editora: {{ gibi.editora }}</p>
     <p>Nº {{ gibi.numero }}</p>
+    <!-- Botão para selecionar a capa do gibi -->
+    <!--
+    <button (click)="lerAgora(gibi)">
+      📖 Ler agora
+    </button> <-->
+    <!-- Botão para download do gibi -->
+    <button (click)="baixarCapa(gibi)">
+      Download
+    </button>
   </div>
 </div>
