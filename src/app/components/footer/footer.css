@@ -1,6 +1,6 @@
 .footer {
-  background-color: #1e1e1e;
-  color: #fff;
+  background-color: #1e1e1ec6;
+  color: #ffffff;
   margin-top: 40px;
 }
 
@@ -39,13 +39,25 @@
   gap: 16px;
 }
 
+.footer-link {
+  color: #f5f5f5fe;  /* cor clara */
+  text-decoration: underline;  /* mostra a palavra GitHub sublinhada */
+  font-weight: 600;
+}
+
+.footer-link:hover {
+  color: #1d76f2ef;  /* ao clicar no link este fica azul no hover */
+  text-decoration: none;   /* após clicar no link este perde o sublinhado */
+}
+
 .footer-content nav a {
-  color: #fff;
-  text-decoration: none;
+  color: #ffffff;
+  text-decoration: underline;
   font-size: 14px;
   transition: opacity 0.2s ease;
 }
 
 .footer-content nav a:hover {
   opacity: 0.7;
+  text-decoration: none;
 }
