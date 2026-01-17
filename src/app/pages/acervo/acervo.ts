@@ -7,5 +7,8 @@ import { Component } from '@angular/core';
   styleUrl: './acervo.css',
 })
 export class Acervo {
-
+  baixarCapa(_t5: any) {
+  throw new Error('Method not implemented.');
+}
+  gibis: any[]= [];
 }
