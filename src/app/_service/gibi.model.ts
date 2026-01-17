@@ -5,6 +5,3 @@ export interface Gibi {
   numero: number;
   capa: string;
 }
-
-
-
